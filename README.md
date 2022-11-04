@@ -42,6 +42,7 @@ wordpress live
 
 
 
+
 prometheus
 
 ![image](https://user-images.githubusercontent.com/64471180/199959580-7d0d901a-621d-4be9-bb52-44ee0a4b1121.png)
@@ -53,3 +54,7 @@ prometheus
 grafana via aws external routing and helm
 
 ![image](https://user-images.githubusercontent.com/64471180/199959839-90446d61-5604-431a-b71b-db316122b1e2.png)
+
+
+![image](https://user-images.githubusercontent.com/64471180/200020331-e231210a-b780-451b-96d7-0277658ed8ff.png)
+
