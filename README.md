@@ -2,18 +2,20 @@
 
 #1 - Run a Production grade Wordpress app on Kubernetes with AWS EKS provisioned and EFS done with mysql as backend database.
 Objectives:
-Create PersistentVolumeClaims and PersistentVolumes
-ReadWriteMany volumes for deployment scaling
-Create DockerFile for Wordpress, Mysql. All the request will proxy pass to wordpress.
-write other required provisioners files for kubernetes
+1. Create PersistentVolumeClaims and PersistentVolumes
+2. ReadWriteMany volumes for deployment scaling
+3. Create DockerFile for Wordpress, Mysql. All the request will proxy pass to wordpress.
+4. write other required provisioners files for kubernetes
+
+
 #2 - Setup monitoring and alerting for wordpress app
 Objectives:
-Deploy Prometheus / Grafana stack on kubernetes (Can use public helm charts)
-Setup monitoring and alerting for your application deployed earlier such as I should get below container metrics 
-a. Pod CPU utilisation
-Monitoring such as:
-a. Total Request Count
-b. Total 5xx request
+1. Deploy Prometheus / Grafana stack on kubernetes (Can use public helm charts)
+2. Setup monitoring and alerting for your application deployed earlier such as I should get below container metrics 
+    a. Pod CPU utilisation
+    Monitoring such as:
+    a. Total Request Count
+    b. Total 5xx request
 
 ![image](https://user-images.githubusercontent.com/64471180/199957970-7036a9c5-9e03-406e-9032-f837fce310d7.png)
 
